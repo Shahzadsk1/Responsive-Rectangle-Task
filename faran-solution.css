@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #333;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+
+  border: 1px solid red;
+  margin: 1em;
+
+  background: #382727;
+}
+
+h1 {
+  background: #382727;
+  color: rgb(223, 78, 78);
+}
+
+@media (min-width: 376px) {
+  .container {
+    flex-direction: row-reverse;
+  }
+}
